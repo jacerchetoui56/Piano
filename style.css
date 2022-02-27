@@ -51,6 +51,34 @@ body {
   font-family: sans-serif;
 }
 
+.whiteKey p {
+  position: absolute;
+  bottom: 5rem;
+  color: #999;
+  right: 45%;
+  font-size: 30px;
+  transition: 0.3s;
+  display: none;
+}
+.whiteKey:hover p {
+  display: block;
+}
+
+.whiteKey h6 {
+  position: absolute;
+  z-index: 5;
+  bottom: 5rem;
+  color: #999;
+  right: 1.5rem;
+  font-size: 25px;
+  transition: 0.3s;
+  display: none;
+}
+
+.blackKey:hover h6 {
+  display: block;
+}
+
 footer {
   background-color: rgb(15, 32, 39);
 }

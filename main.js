@@ -1,4 +1,4 @@
-const keys = ['s','e','d','r','f','t','g','h','u','j','i','k','l','o','m',]
+const keys = ['q','z','s','e','d','r','f','t','g','h','u','j','i','k','l','o','m',]
 const sounds = document.querySelectorAll("audio")
 const elms = document.querySelectorAll('[data-sound]')
 
