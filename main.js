@@ -5,7 +5,8 @@ const elms = document.querySelectorAll('[data-sound]')
 console.log(elms[4].getAttribute("data-sound"))
 
 elms.forEach((element)=>{
-    element.addEventListener('click',()=>{
+    element.addEventListener('click',(event)=>{
+        event.stopImmediatePropagation()
         console.log(element.getAttribute("data-sound"))
         playsound(element.getAttribute('data-sound'));
     })
