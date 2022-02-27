@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, purple, rgb(65, 68, 214), blue);
+  text-align: center;
+}
+
+.logo {
+  width: 280px;
+  height: 150px;
+  margin: 40px 0;
+}
+
+.piano {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}
+.whiteKey {
+  background-color: white;
+  padding: 150px 0;
+  /* padding: 50px 20px; */
+  border: 1px solid black;
+  flex-grow: 1;
+  position: relative;
+}
+
+.blackKey {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: -1.75rem;
+  background-color: black;
+  width: 3.5rem;
+  height: 9rem;
+}
+
+.whiteKey span {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+footer {
+  background-color: rgb(15, 32, 39);
+}
+footer h1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  font-size: 20px;
+}
