@@ -27,24 +27,3 @@ document.addEventListener('keypress',(event)=>{
     }
 })
 
-
-// sounds.forEach((sound)=>{
-    //     sound.currentTime = 0
-//     sound.play()
-//     setTimeout(() => {
-    //         sound.pause()
-    //     }, 1000);
-    // })
-    
-    
-    
-    // const c4 = document.querySelector("#c4")
-    // const c4sound = document.querySelector("#c4sound")
-    
-    // c4.addEventListener('click', ()=>{
-    //     c4sound.currentTime = 0;
-    //     c4sound.play();
-    //     setTimeout(()=>{
-    //         c4sound.pause()
-    //     } ,1000)
-    // })
