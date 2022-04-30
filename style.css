@@ -88,3 +88,28 @@ footer h1 {
   padding: 20px;
   font-size: 20px;
 }
+
+@media (max-width:775px){
+  .logo{
+    width: 150px;
+    height: 70px;
+  }
+  html{
+    font-size: 85%;
+  }
+  .piano{
+    width: 95%;
+  }
+
+}
+
+@media (max-width:500px){
+  html{
+    font-size: 50%;
+  }
+  .blackKey{
+    height: 15rem;
+  }
+}
+
+
